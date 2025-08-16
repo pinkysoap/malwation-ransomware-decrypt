@@ -1,3 +1,8 @@
+gcc -o malware-decrypt2 malware-decrypt2.c
+./malware-decrypt2 [encrypted-file]
+will result in "decrypt" file.
+
+
 Code unpacks itself then execution continues with simd instructions 
 encrypting file content 16 byte blocks in each iteration.
 In every iteration key also recalculated to a new value. 
