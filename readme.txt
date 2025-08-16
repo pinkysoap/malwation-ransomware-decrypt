@@ -2,7 +2,7 @@ Code unpacks itself then execution continues with simd instructions
 encrypting file content 16 byte blocks in each iteration.
 In every iteration key also recalculated to a new value. 
 
-I have precalculated a lookup table up to 100 mb.
+I have precalculated a lookup table up to 25 mb.
 
 The file encrypting essential part is here from original Setup.exe:
 
